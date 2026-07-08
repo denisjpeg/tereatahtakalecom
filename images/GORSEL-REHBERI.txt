@@ -1,0 +1,66 @@
+GÖRSEL YÜKLEME REHBERİ
+=======================
+
+Ürün fotoğraflarını otomatik indiremedim çünkü:
+1) Bu ortamda internete çıkışım kapalı (bash ile indirme yapamıyorum).
+2) Excel'deki görsel linkleri kendi sitenizin (tereatahtakale.com) medya
+   klasörüne ait ve o site "robots.txt" ile otomatik erişimi (botları) engelliyor,
+   bu yüzden benim tarayıcı-dışı indirme aracım da bu linklere erişemiyor.
+
+NE YAPMANIZ GEREKİYOR (5 dakika sürer):
+----------------------------------------
+1. Aşağıdaki her satırdaki linke tıklayıp fotoğrafı bilgisayarınıza indirin
+   (sağ tık > Resmi Farklı Kaydet).
+2. İndirdiğiniz dosyayı, ok işaretinden sonra yazan isimle YENİDEN ADLANDIRIN.
+3. Yeniden adlandırdığınız tüm dosyaları bu "images" klasörünün İÇİNE koyun
+   (bu txt dosyasıyla aynı klasör).
+4. Hepsi bittiğinde siteyi açtığınızda ürün fotoğrafları otomatik görünecek.
+   Kodda hiçbir şeyi değiştirmenize gerek yok, dosya adları zaten kodda tanımlı.
+
+Not: Dosya adı BÜYÜK/küçük harf ve uzantı (.jpeg/.png/.webp) dahil BİREBİR
+aynı olmalı, yoksa görsel görünmez (o üründe "Görsel eksik" yazısı çıkar).
+
+EŞLEŞTİRME LİSTESİ (indirilecek link -> kaydedilecek dosya adı)
+----------------------------------------------------------------
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas1.jpeg -> terea-purple-wave-kibris.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas2.jpeg -> terea-amber-kibris.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas3.jpeg -> terea-purple-kibris.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas5.jpeg -> terea-sienna-avrupa-1.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas12.jpeg -> terea-sienna-avrupa-2.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas6.jpeg -> terea-yellow-avrupa.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas10.jpeg -> terea-purple-avrupa.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas13.jpeg -> terea-amber-avrupa-1.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas23.jpeg -> terea-amber-avrupa-2.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas15.jpeg -> terea-sienna-avrupa.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas17.jpeg -> terea-amelia-pearl-avrupa.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas18.jpeg -> terea-silver-avrupa.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas19.jpeg -> terea-teak-avrupa.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas21.jpeg -> terea-sun-pearl-avrupa.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas22.jpeg -> terea-menthol-avrupa.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas24.jpeg -> terea-teak-dubai.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas25.jpeg -> terea-amber-dubai.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas27.jpeg -> terea-sienna-dubai.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas28.jpeg -> terea-purple-dubai.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas29.jpeg -> terea-menthol-dubai.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/tereas30.jpeg -> terea-silver-dubai.jpeg
+https://tereatahtakale.com/wp-content/uploads/2026/05/37.png -> iqos-iluma-i-prime-1.png
+https://tereatahtakale.com/wp-content/uploads/2026/05/38.png -> iqos-iluma-i-prime-2.png
+https://tereatahtakale.com/wp-content/uploads/2026/05/40.png -> iqos-iluma-i-prime-3.png
+https://tereatahtakale.com/wp-content/uploads/2026/05/3-768x768-1.png -> iqos-iluma-i-1.png
+https://tereatahtakale.com/wp-content/uploads/2026/05/4-768x768-1.png -> iqos-iluma-i-2.png
+https://tereatahtakale.com/wp-content/uploads/2026/05/5.png -> iqos-iluma-i-3.png
+https://tereatahtakale.com/wp-content/uploads/2026/05/1.png -> iqos-iluma-i-4.png
+https://tereatahtakale.com/wp-content/uploads/2026/05/2.png -> iqos-iluma-i-5.png
+https://tereatahtakale.com/wp-content/uploads/2026/05/iqosione.webp -> iqos-iluma-i-one-1.webp
+https://tereatahtakale.com/wp-content/uploads/2026/05/iqosione3.webp -> iqos-iluma-i-one-2.webp
+https://tereatahtakale.com/wp-content/uploads/2026/05/iqosione2.webp -> iqos-iluma-i-one-3.webp
+https://tereatahtakale.com/wp-content/uploads/2026/05/iqosione5.webp -> iqos-iluma-i-one-4.webp
+https://tereatahtakale.com/wp-content/uploads/2026/05/iqosione4.webp -> iqos-iluma-i-one-5.webp
+https://tereatahtakale.com/wp-content/uploads/2026/05/39-1.png -> iqos-iluma-prime.png
+
+ALTERNATİF (daha hızlı yol):
+----------------------------
+Zaten bu görseller WordPress medya kütüphanenizde duruyorsa, WordPress admin
+panelinden "Medya" bölümüne girip ilgili 35 görseli seçip toplu indirebilir,
+sonra yukarıdaki tabloya göre isimlerini değiştirip bu klasöre atabilirsiniz.
+Bu, tek tek linke tıklamaktan çok daha hızlıdır.
